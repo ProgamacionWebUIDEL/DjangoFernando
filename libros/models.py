@@ -21,3 +21,4 @@ class Computadora(models.Model):
     almacenamiento = models.CharField(max_length=15, help_text='almacenamiento')
     procesador = models.CharField(max_length=100, help_text='procesador')
     pantalla = models.CharField(max_length=100, help_text='dimension de la pantalla')
+    color = models.CharField(max_length=100, help_text='color', null=True)

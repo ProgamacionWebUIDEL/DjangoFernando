@@ -35,5 +35,6 @@ class ComputadoraSerializable(serializers.ModelSerializer):
             'ram',
             'almacenamiento',
             'procesador',
-            'pantalla'
+            'pantalla',
+            'color'
         )
